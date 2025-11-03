@@ -1,0 +1,11 @@
+# Atividade Prática 03 - Exercício 6
+# Calculadora de Comissão
+
+nome = input("Digite o nome do vendedor: ")
+salario_fixo = float(input("Digite o salário fixo: "))
+vendas = float(input("Digite o total de vendas no mês: "))
+
+comissao = vendas * 0.15
+total = salario_fixo + comissao
+
+print(f"TOTAL = R$ {total:.2f}")
