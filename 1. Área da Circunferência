@@ -1,0 +1,7 @@
+# Atividade Prática 03 - Exercício 1
+# Cálculo da área de uma circunferência
+
+raio = float(input("Digite o valor do raio: "))
+pi = 3.14159265
+area = pi * (raio ** 2)
+print(f"A={area:.4f}")
